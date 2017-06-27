@@ -1,0 +1,52 @@
+{
+  "create": {
+    "actors": [
+      "pivotal",
+      "praduman1417"
+    ],
+    "groups": [
+      "admins",
+      "users"
+    ]
+  },
+  "read": {
+    "actors": [
+      "pivotal",
+      "praduman1417"
+    ],
+    "groups": [
+      "admins",
+      "clients",
+      "users"
+    ]
+  },
+  "update": {
+    "actors": [
+      "pivotal",
+      "praduman1417"
+    ],
+    "groups": [
+      "admins",
+      "users"
+    ]
+  },
+  "delete": {
+    "actors": [
+      "pivotal",
+      "praduman1417"
+    ],
+    "groups": [
+      "admins",
+      "users"
+    ]
+  },
+  "grant": {
+    "actors": [
+      "pivotal",
+      "praduman1417"
+    ],
+    "groups": [
+      "admins"
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "create": {
+    "actors": [
+      "infy-laptop-client",
+      "pivotal"
+    ],
+    "groups": [
+      "admins",
+      "clients",
+      "users"
+    ]
+  },
+  "read": {
+    "actors": [
+      "infy-laptop-client",
+      "pivotal"
+    ],
+    "groups": [
+      "admins",
+      "clients",
+      "users"
+    ]
+  },
+  "update": {
+    "actors": [
+      "infy-laptop-client",
+      "pivotal"
+    ],
+    "groups": [
+      "admins",
+      "users"
+    ]
+  },
+  "delete": {
+    "actors": [
+      "infy-laptop-client",
+      "pivotal"
+    ],
+    "groups": [
+      "admins",
+      "users"
+    ]
+  },
+  "grant": {
+    "actors": [
+      "infy-laptop-client",
+      "pivotal"
+    ],
+    "groups": [
+      "admins"
+    ]
+  }
+}

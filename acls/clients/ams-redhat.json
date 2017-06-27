@@ -1,0 +1,54 @@
+{
+  "create": {
+    "actors": [
+      "ams-redhat",
+      "pivotal",
+      "praduman1417"
+    ],
+    "groups": [
+      "admins"
+    ]
+  },
+  "read": {
+    "actors": [
+      "ams-redhat",
+      "pivotal",
+      "praduman1417"
+    ],
+    "groups": [
+      "admins",
+      "users"
+    ]
+  },
+  "update": {
+    "actors": [
+      "ams-redhat",
+      "pivotal",
+      "praduman1417"
+    ],
+    "groups": [
+      "admins"
+    ]
+  },
+  "delete": {
+    "actors": [
+      "ams-redhat",
+      "pivotal",
+      "praduman1417"
+    ],
+    "groups": [
+      "admins",
+      "users"
+    ]
+  },
+  "grant": {
+    "actors": [
+      "ams-redhat",
+      "pivotal",
+      "praduman1417"
+    ],
+    "groups": [
+      "admins"
+    ]
+  }
+}

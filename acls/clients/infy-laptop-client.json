@@ -1,0 +1,54 @@
+{
+  "create": {
+    "actors": [
+      "infy-laptop-client",
+      "pivotal",
+      "praduman1417"
+    ],
+    "groups": [
+      "admins"
+    ]
+  },
+  "read": {
+    "actors": [
+      "infy-laptop-client",
+      "pivotal",
+      "praduman1417"
+    ],
+    "groups": [
+      "admins",
+      "users"
+    ]
+  },
+  "update": {
+    "actors": [
+      "infy-laptop-client",
+      "pivotal",
+      "praduman1417"
+    ],
+    "groups": [
+      "admins"
+    ]
+  },
+  "delete": {
+    "actors": [
+      "infy-laptop-client",
+      "pivotal",
+      "praduman1417"
+    ],
+    "groups": [
+      "admins",
+      "users"
+    ]
+  },
+  "grant": {
+    "actors": [
+      "infy-laptop-client",
+      "pivotal",
+      "praduman1417"
+    ],
+    "groups": [
+      "admins"
+    ]
+  }
+}

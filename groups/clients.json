@@ -1,0 +1,8 @@
+{
+  "name": "clients",
+  "clients": [
+    "ams-redhat",
+    "bebo-chef-validator",
+    "infy-laptop-client"
+  ]
+}

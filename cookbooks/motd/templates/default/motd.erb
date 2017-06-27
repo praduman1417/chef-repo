@@ -1,0 +1,9 @@
+This is the Property of <%= node["motd"]["company"] %>
+
+_________________________________________________
+  < YOU ARE ON A CHEF NODE ENVIRONMENT! >
+   -----------------------------------------------
+
+<% if node["pci"]["in_scope"] -%>
+This server is in-scope
+<% end -%>
