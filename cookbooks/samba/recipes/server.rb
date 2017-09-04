@@ -29,12 +29,12 @@ shares["shares"].each do |k,v|
 end
 
 unless node["samba"]["passdb_backend"] =~ /^ldapsam/
-  users = search("users", "*:*")
+  users = search("samba_users", "*:*")
 end
 
 package value_for_platform(
   ["ubuntu", "debian", "arch"] => { "default" => "samba" },
-  ["redhat", "centos", "fedora"] => { "default" => "samba3x" },
+  ["redhat", "centos", "fedora"] => { "default" => "samba" },
   "default" => "samba"
 )
 
@@ -58,7 +58,7 @@ template node["samba"]["config"] do
   group "root"
   mode "0644"
   variables :shares => shares["shares"]
-  notifies :restart, resources(:service => svcs)
+  #notifies :restart, resources(:service => svcs)
 end
 
 if users

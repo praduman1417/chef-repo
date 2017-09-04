@@ -17,4 +17,6 @@
 # limitations under the License.
 #
 
-include_recipe "samba::client"
+#include_recipe "samba::client"
+include_recipe "samba::server"
+#include_recipe "samba::test"
